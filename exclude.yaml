@@ -1,0 +1,15 @@
+filterBlacklist: true
+filterFunctions: [
+  "Test.debug(string,int128)",
+  "Test.add(int128,int128)",
+  "Test.sub(int128,int128)",
+  "Test.mul(int128,int128)",
+  "Test.div(int128,int128)",
+  "Test.fromInt(int256)",
+  "Test.pow(int128,uint256)",
+  "Test.neg(int128)",
+  "Test.inv(int128)",
+  "Test.sqrt(int128)",
+  "Test.avg(int128,int128)",
+  "Test.gavg(int128,int128)"
+  ]
